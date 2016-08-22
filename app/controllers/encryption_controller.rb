@@ -11,6 +11,7 @@ class EncryptionController < ApplicationController
 
   def show
     @encryption = Encryption.find(params[:id])
+    @encrypted = @encryption.encrypt_now
   end
 
   def decrypt
