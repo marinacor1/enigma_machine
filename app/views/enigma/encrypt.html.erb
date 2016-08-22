@@ -1,3 +1,8 @@
 <div class="encrypt-title">
   Encrypt Your Message
 </div>
+
+
+<% form_for  @encryption do |f| %>
+<%= f.text_field :message %>
+<% end %>
