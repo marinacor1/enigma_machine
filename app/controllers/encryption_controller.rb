@@ -5,8 +5,8 @@ class EncryptionController < ApplicationController
   end
 
   def create
-    @encryption = Encryption.new(message: params[:message])
-    redirect_to encryption_path
+    @encryption = Encryption.create(message: params[:message])
+    redirect_to encryption_path(@encryption)
   end
 
   def show

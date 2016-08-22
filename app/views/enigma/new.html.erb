@@ -1,0 +1,10 @@
+<div class="encrypt-title">
+  Encrypt Your Message
+</div>
+
+<%= form_for @encryption, url: '/encrypt' do |f| %>
+
+<%= f.label :message, "Message:" %>
+<%= f.text_field :message %>
+<%= f.submit "Submit" %>
+<% end %>
