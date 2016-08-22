@@ -1,6 +1,6 @@
 class EnigmaController < ApplicationController
 
-  def encrypt
+  def new
     @encryption = Encryption.new
   end
 

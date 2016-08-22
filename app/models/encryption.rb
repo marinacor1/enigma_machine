@@ -1,5 +1,5 @@
 class Encryption < ActiveRecord::Base
-  before_action :encrypt_now
+  before_validation :encrypt_now
 
   def encrypt_now
     binding.pry

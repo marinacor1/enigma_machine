@@ -2,7 +2,9 @@
   Encrypt Your Message
 </div>
 
+<%= form_for @encryption do |f| %>
 
-<% form_for  @encryption do |f| %>
+<%= f.label :message, "Message:" %>
 <%= f.text_field :message %>
+<%= f.submit "Submit" %>
 <% end %>
