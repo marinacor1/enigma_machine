@@ -11,3 +11,20 @@
   font-size: 200%;
   padding: 20px;
 }
+
+.back-links {
+  background-color: #4caf50 !important;
+  border: none;
+  margin: 0 auto;
+  width: 5%;
+  height: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 1.6em;
+  font-family: monospace;
+  color: white;
+  text-shadow: 2px 2px #696969;
+  border-style: solid;
+}
