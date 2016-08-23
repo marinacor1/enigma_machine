@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+
+body {
+  background: url('https://hd.unsplash.com/photo-1467319363895-5d094aaf6bdf') no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+div {
+  opacity: 0.5;
+  font-family: Arial;
+  font-size: 1.4em;
+  margin: 60px;
+  padding: 60px;
+  color: white;
+  background-color: #696969;
+  border-radius: 25px;
+  width: 40%;
+}
