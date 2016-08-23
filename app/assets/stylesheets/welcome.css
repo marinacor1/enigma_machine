@@ -4,3 +4,62 @@
   font-size: 200%;
   padding: 20px;
 }
+
+.e-button{
+  background-color: #4caf50 !important;
+  border: none;
+  margin: 0 auto;
+  width: 5%;
+  height: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 1.6em;
+  font-family: monospace;
+  color: white;
+  text-shadow: 2px 2px #696969;
+  border-style: solid;
+}
+
+.d-button {
+  background-color: #ff0000 !important;
+  border: none;
+  margin: 0 auto;
+  width: 5%;
+  height: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 1.6em;
+  font-family: monospace;
+  color: white;
+  text-shadow: 2px 2px #696969;
+  border-style: solid;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
