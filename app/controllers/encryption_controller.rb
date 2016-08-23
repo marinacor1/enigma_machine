@@ -18,9 +18,6 @@ class EncryptionController < ApplicationController
     @encrypted = @encryption.encrypt_now
   end
 
-  def decrypt
-
-  end
 
   private
 

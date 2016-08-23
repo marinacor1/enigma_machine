@@ -5,7 +5,6 @@
   <p>
 <div class="form-new-encryption">
 <%= form_for @encryption, url: '/encrypt' do |f| %>
-
 <%= f.label :message, "Message:" %>
 <%= f.text_field :message %>
 <%= f.submit "Submit" %>
