@@ -1,0 +1,12 @@
+<div class="decrypt-title">
+  Decrypt Your Message
+</div>
+<p>
+  <p>
+<div class="form-new-decryption">
+<%= form_for @decryption, url: '/decrypt' do |f| %>
+<%= f.label :message, "Message:" %>
+<%= f.text_field :message %>
+<%= f.submit "Submit" %>
+<% end %>
+</div>

@@ -22,13 +22,13 @@ body {
 }
 
 div {
-  opacity: 0.5;
+  opacity: 0.85;
   font-family: Arial;
   font-size: 1.4em;
   margin: 0 auto;
   padding: 60px;
   color: white;
   background-color: #696969;
-  border-radius: 25px;
+  border-radius: 10px;
   width: 40%;
 }
