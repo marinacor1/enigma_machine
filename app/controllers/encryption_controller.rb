@@ -5,8 +5,12 @@ class EncryptionController < ApplicationController
   end
 
   def create
-    @encryption = Encryption.create(message: params[:message])
-    redirect_to encryption_path(@encryption)
+    @encryption = Encryption.create(create_params)
+    if @encryption.save
+      redirect_to encryption_path(@encryption)
+    else
+      render :new
+    end
   end
 
   def show
@@ -16,5 +20,11 @@ class EncryptionController < ApplicationController
 
   def decrypt
 
+  end
+
+  private
+
+  def create_params
+    params.require(:encryption).permit(:message)
   end
 end
