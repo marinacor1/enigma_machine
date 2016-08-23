@@ -18,7 +18,6 @@ class DecryptionController < ApplicationController
     @decrypted = @decryption.decrypt_now
   end
 
-
   private
 
   def create_params

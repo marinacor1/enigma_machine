@@ -18,7 +18,6 @@ class EncryptionController < ApplicationController
     @encrypted = @encryption.encrypt_now
   end
 
-
   private
 
   def create_params
